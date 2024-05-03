@@ -1,0 +1,14 @@
+run 2 fastAPIs: uvicorn main:app --host 127.0.0.1 --port 4000/5000
+
+win-env\Scripts\activate
+
+
+PROGRESS REP:
+
+>access data from db [o]
+>comparison of modifiedAt [o]
+>copy data from db [~]
+>worry about the id situation [o]
+>listener [~]
+>>idea>loop??
+>autorun
