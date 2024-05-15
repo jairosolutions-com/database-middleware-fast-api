@@ -1,6 +1,7 @@
 #How to Run
 
-- run virtual environment
+- initiate virtual environment "python -m venv venv"
+- activate virtual environment "venv\Scripts\activate"
 - change directory to the first fastapi
 - run uvicorn main:app --reload on the first api
 - change directory to the second fastapi
